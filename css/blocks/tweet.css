@@ -1,0 +1,228 @@
+.tweet{
+    display: flex;
+    border-bottom:1px solid #e6ecf0 ;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+}
+.tweet__author-logo{
+    width:48px;
+    height:48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet__header{
+    display: flex;
+}
+
+.tweet__author-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: #14171A;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.tweet__author-name:hover{
+    text-decoration: underline;
+    /* color: #14171A; */
+    
+}
+
+
+
+.tweet__author-slug{
+    text-decoration: none;
+    color: #536471;
+    font-size: 15px;
+    font-weight: 400;
+    /* cursor: pointer; */
+}
+
+.tweet__publish-time:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.tweet__publish-time{
+    color: #536471;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.tweet__image{
+    width: 100%;
+    border-radius: 15px;
+    margin-top:10px ;
+}
+
+.tweet a{
+    color: #1b94e0;
+    text-decoration: none;
+}
+
+.tweet a:hover{
+    text-decoration: underline;
+}
+.tweet:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.jelajahi-stick{
+    height: 106px;
+    
+    
+    
+}
+
+.jelajahi-stick-item{
+    border-right:1px solid #e6ecf0 ;
+    position: fixed;
+    height: 106px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.85);
+    
+   
+}
+.jelajahi-stick-item-content{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+   
+}
+
+
+.menu__beranda{
+    /* margin-top: 20px; */
+    display: grid;
+    place-items: center;
+    /* justify-content: space-between; */
+}
+.menu__beranda-item{
+    margin-top: 20px;
+    display: flex;
+    
+    
+}
+.menu__beranda-fyp{
+    cursor: pointer;
+    padding-right: 250px;
+}
+
+.menu__beranda-mengikuti{
+    cursor: pointer;
+}
+
+.make-tweet{
+    border-top:1px solid #e6ecf0 ;
+    border-bottom:1px solid #e6ecf0 ;
+    display: flex;
+    padding: 10px 15px;
+    height: 108px;
+}
+
+.tweet__make-profil-logo{
+    width:48px;
+    height:48px;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+    
+}
+.wh{
+    height: 50px;
+    width: 500px;
+    border: 0px solid;
+    outline: none;
+    
+}
+
+.wh::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+
+.tweet__make-content-item-footer{
+    display: flex;
+}
+.tweet__make-content-item-footer-icons{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+.tweet__make-content-item-footer-icon{
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+
+.tweet__make-content-item-footer{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: invert(47%) sepia(28%) saturate(1524%) hue-rotate(163deg) brightness(103%) contrast(99%);
+    padding: 12px;
+}
+.footer-icon:hover{
+    border-radius: 50px;
+    background: rgba(232, 245, 253,0.1);
+}
+
+.tweet__make-footer-button {
+    /* border: 1px solid #1da0f2; */
+    background-color: #1b94e0;
+    color: #f5f8fa;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 5px;
+    /* min-width: 67px; */
+    text-align: center;
+    min-width: 64px;
+    cursor: pointer;
+}
+
+.tweet__make-footer-button:hover{
+    background: rgba(27, 148, 224,0.8);
+}
+
+.tweet-action{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-right: 12px; */
+}
+.tweet-action-icon{
+
+    padding-right: 80px;
+}
+
+.action-icon{
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    filter: invert(36%) sepia(13%) saturate(692%) hue-rotate(164deg) brightness(96%) contrast(84%);
+    /* cursor: pointer; */
+}
+
+.action-icon:hover{
+    border-radius: 50px;
+    background: rgba(27, 148, 224,0.1);
+}
+
+
+
+
+

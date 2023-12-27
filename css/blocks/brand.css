@@ -1,0 +1,15 @@
+.brand{
+    cursor: pointer;
+    padding: 12px;
+    height: 28.38px;
+    width: 23.07;
+    filter: invert(47%) sepia(28%) saturate(1524%) hue-rotate(163deg) brightness(103%) contrast(99%);
+    /* color: red; */
+    /* background-color: rgba(231, 231, 232, 1); */
+    
+}
+
+.brand:hover{
+    background: rgba(231, 231, 232, 0.1);
+    border-radius: 50px;
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 180px 600px 350px;
+    margin: 0 auto;
+    max-width: 1263px;
+}
+
+.layout__rifght-sidebar{
+    /* border-left: solid 1px red; */
+    /* position: fixed; */
+}
+.layout__rifght-sidebar-container{
+    /* position: fixed; */
+    margin-left: 20px;
+}
+
+.layout__left-sidebar{
+    position: fixed;
+    
+    margin-left: 100px;
+    
+}
+
+.layout__left-sidebar-container{
+    border-right:1px solid #e6ecf0 ;
+    
+}
+
+.layout__main{
+    
+    border-right:1px solid #e6ecf0 ;
+    /* border-left: solid 1px red;
+    border-right: solid 1px red; */
+    
+}

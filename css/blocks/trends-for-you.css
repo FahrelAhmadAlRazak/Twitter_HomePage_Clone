@@ -1,0 +1,79 @@
+.trends-for-you{
+    width: 348px;
+    border-radius: 15px;
+    background: #EFF3F4;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.trends-for-you__block{
+    border-bottom: 1px solid #e6ece6;
+    padding: 10px 15px;
+}
+
+.trends-for-you__block:hover{
+    background: rgba(231, 231, 232, 1);
+}
+
+.trends-for-you__block:last-child {
+    border-bottom: none;
+  }
+
+.trends-for-you__heading{
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.trends-for-you__meta-information{
+    font-size: 13px;
+    font-weight: 400;
+    color: #536471;
+}
+.trends-for-you__trend-name{
+    font-size: 15px;
+    color: #14171a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.trends-for-you__block a{
+    text-decoration: none;
+    color: #1b94e0;
+}
+
+.trends-for-you__search{
+    /* padding: 12px; */
+    margin-top: 10px;
+    background: #EFF3F4;
+}
+.search{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    border-radius: 50px;
+    padding: 12px;
+    width: 350px;
+    background: #EFF3F4;
+    border: 0px solid;
+    position: fixed;
+}
+
+::placeholder{
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 12px;
+
+}
+
+.trends-for-you__search{
+    display: flex;
+}
+.trends-for-you__search-icon-item{
+    
+    height: 16px;
+    background: #f5f8fa;
+}
+
